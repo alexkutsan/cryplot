@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+echo $0
+
 set -eu
 
 PWD=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
